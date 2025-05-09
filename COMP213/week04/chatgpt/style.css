@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    background-color: #e0f7fa;
+    color: #333;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header (Title and Banner Image) */
+header {
+    background-color: #00796b;
+    color: white;
+    padding: 20px;
+}
+
+h3 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.banner-image {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+/* Introduction Section */
+.intro {
+    margin: 30px 0;
+}
+
+.intro p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Resources Section */
+.resources {
+    margin: 40px 0;
+}
+
+.resources ul {
+    list-style-type: none;
+}
+
+.resources li {
+    margin: 10px 0;
+}
+
+.resources a {
+    text-decoration: none;
+    color: #00796b;
+    font-size: 1.1rem;
+}
+
+.resources a:hover {
+    text-decoration: underline;
+    color: #004d40;
+}
+
+/* Footer */
+footer {
+    background-color: #00796b;
+    color: white;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 1rem;
+}

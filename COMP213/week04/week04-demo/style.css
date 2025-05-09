@@ -1,0 +1,33 @@
+body {
+    background-color: #e6e6fa;
+    color: #191970;
+}
+
+h1 {
+    background-color: #191970;
+    color: #e6e6fa;
+}
+
+h2 {
+    background-color: #aeaed4;
+    color: #191907;
+}
+
+.new {
+    color: #ff0000;
+}
+
+#new {
+    color: brown;
+}
+
+
+footer p {
+    color: #00ff00;
+}
+
+.companyname {
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.25em;
+}
